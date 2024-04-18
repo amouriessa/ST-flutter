@@ -22,7 +22,7 @@ class SignUpFooter extends StatelessWidget {
         ElevatedButton(
           onPressed: () {
             onPressedSignUp();
-            _showSnackBar(context); // Show the SnackBar
+            _showSnackBar(context);
           },
           child: const Text("Sign Up"),
           style: ElevatedButton.styleFrom(
@@ -32,7 +32,7 @@ class SignUpFooter extends StatelessWidget {
               borderRadius: BorderRadius.circular(40.0),
             ),
             padding: EdgeInsets.symmetric(
-                horizontal: 50, vertical: 15), // Padding tombol
+                horizontal: 50, vertical: 15),
           ),
         ),
         SizedBox(height: 10),

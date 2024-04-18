@@ -1,3 +1,4 @@
+import 'package:bromindo_project/screens/home_screen.dart';
 import 'package:bromindo_project/widgets/loginpage/login_footer.dart';
 import 'package:bromindo_project/widgets/loginpage/login_form.dart';
 import 'package:bromindo_project/widgets/loginpage/login_header.dart';
@@ -24,7 +25,12 @@ class LoginScreen extends StatelessWidget {
               LoginForm(
                   etRole: role, etEmail: email, etPass: pass, formkey: formkey),
               LoginFooter(
-                onPressedLogin: () {},
+                onPressedLogin: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => HomeScreen()),
+                  );
+                },
               )
             ],
           ),
