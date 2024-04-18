@@ -1,6 +1,6 @@
-import 'package:bromindo_project/widgets/login/login_footer.dart';
-import 'package:bromindo_project/widgets/login/login_form.dart';
-import 'package:bromindo_project/widgets/login/login_header.dart';
+import 'package:bromindo_project/widgets/loginpage/login_footer.dart';
+import 'package:bromindo_project/widgets/loginpage/login_form.dart';
+import 'package:bromindo_project/widgets/loginpage/login_header.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {

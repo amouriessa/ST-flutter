@@ -1,3 +1,4 @@
+import 'package:bromindo_project/screens/signup_screen.dart';
 import 'package:flutter/material.dart';
 
 class LoginFooter extends StatelessWidget {
@@ -28,8 +29,10 @@ class LoginFooter extends StatelessWidget {
         SizedBox(height: 2),
         TextButton(
           onPressed: () {
-            // Navigasi ke halaman reset password
-            // Misalnya dengan Navigator.push ke halaman ResetPassword
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => SignUpScreen()),
+            );
           },
           child: Text("Don't have an account? Sign Up"),
         ),
