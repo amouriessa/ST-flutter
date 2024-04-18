@@ -10,13 +10,12 @@ class TextStyles {
     fontFamily: 'Outfit',
     fontWeight: FontWeight.bold,
     fontSize: 18.0,
-    color: AppColors.darkGrey,
+    color: Colors.black,
   );
 
   static TextStyle body = const TextStyle(
-    fontFamily: 'Outfit',
-    fontWeight: FontWeight.normal,
-    fontSize: 16.0,
-    color: AppColors.darkGrey,
-  );
+      fontFamily: 'Outfit',
+      fontWeight: FontWeight.normal,
+      fontSize: 18.0,
+      color: Colors.black);
 }
